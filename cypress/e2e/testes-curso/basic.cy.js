@@ -20,6 +20,7 @@ describe('Cypress basics', () => {
         cy.visit('https://www.wcaquino.me/cypress/componentes.html')
         
         cy.get('#buttonSimple').click()
+        cy.get('#buttonSimple').click()
         cy.get('#buttonSimple').should('have.value', 'Obrigado!')
     })
 })
