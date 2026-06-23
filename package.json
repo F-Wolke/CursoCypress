@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^15.16.0",
     "dayjs": "^1.11.21"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.17.0"
+  }
 }
