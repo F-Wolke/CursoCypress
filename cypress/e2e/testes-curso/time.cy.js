@@ -21,7 +21,4 @@ describe('testes de tempo', () => {
         cy.get('#resultado > span').should('contain', '10/04/2012')
     })
 
-    it.only('vai para o futuro', () => {
-        
-    })
 })
